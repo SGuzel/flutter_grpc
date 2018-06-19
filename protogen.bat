@@ -1,0 +1,1 @@
+protoc -I. ./lib/proto/helloworld.proto --plugin=protoc-gen-dart=c:\Users\s.ludwig\AppData\Roaming\Pub\Cache\bin\protoc-gen-dart.bat --dart_out=grpc:./
